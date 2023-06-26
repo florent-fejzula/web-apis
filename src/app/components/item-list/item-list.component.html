@@ -1,0 +1,5 @@
+<button (click)="createPost()">Create Post</button>
+
+<ul>
+    <li *ngFor="let item of items$ | async">{{ item.title }}</li>
+</ul>
