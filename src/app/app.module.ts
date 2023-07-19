@@ -6,12 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemListComponent } from './components/item-list/item-list.component';
 import { DataListComponent } from './components/data-list/data-list.component';
+import { ObservablesComponent } from './components/observables/observables.component';
+import { SubjectsComponent } from './components/subjects/subjects.component';
+import { SenderComponent } from './components/subjects/sender/sender.component';
+import { ReceiverComponent } from './components/subjects/receiver/receiver.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemListComponent,
-    DataListComponent
+    DataListComponent,
+    ObservablesComponent,
+    SubjectsComponent,
+    SenderComponent,
+    ReceiverComponent
   ],
   imports: [
     BrowserModule,
